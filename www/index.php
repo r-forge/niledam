@@ -43,9 +43,19 @@ echo $contents; } ?>
 
 <!-- end of project description -->
 
-<p> No content added. </p>
+<p> The <strong>project summary page</strong> can be found <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; ?>/"><strong>here</strong></a>, <strong>the package</strong> can be downloaded <a href="http://r-forge.r-project.org/R/?group_id=1724">here</a> or by typing:
+<pre>install.packages("SOMbrero", repos="http://R-Forge.R-project.org")</pre>
+in <b>R</b>.
+</p>
 
-<p> The <strong>project summary page</strong> you can find <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; ?>/"><strong>here</strong></a>. </p>
+To cite the package, please use:
+<ul>
+<li>
+Villa-Vialaneix N., Montel Jean-Marc and Seydoux-Guillaume Anne-Magali (2013) <em>NiLeDAM: Monazite Datation for the NiLeDAM team</em>. R package version 0.1.
+</li>
+<li>Montel J.M., Foret S., Veschambre M., Nicollet C., Provost A. (1996) Electron microprobe dating of monazite. <em>Chemical Geology</em>, <strong>131</strong>, 37-53.</li>
+<li>Seydoux-Guillaume A.M., Montel J.M., Bingen B., Bosse V., de Parseval P., Paquette J.L., Janots E., Wirth R. (2012) Low-temperature alteration of monazite: fluid mediated coupled dissolution-precipitation, irradiation damage and disturbance of the U-Pb and Th-Pb chronometers. <em>Chemical Geology</em>, <strong>330-331</strong>, 140-158.</li>
+</ul>
 
 </body>
 </html>
