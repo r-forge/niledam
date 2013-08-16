@@ -44,9 +44,11 @@ echo $contents; } ?>
 <!-- end of project description -->
 
 <p> The <strong>project summary page</strong> can be found <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; ?>/"><strong>here</strong></a>, <strong>the package</strong> can be downloaded <a href="http://r-forge.r-project.org/R/?group_id=1724">here</a> or by typing:
-<pre>install.packages("SOMbrero", repos="http://R-Forge.R-project.org")</pre>
+<pre>install.packages("NiLeDAM", repos="http://R-Forge.R-project.org")</pre>
 in <b>R</b>.
 </p>
+
+<p>Afraid by R? I made for you a graphical interface that does not require any specific knowledge in R programming. It is based on <a href="http://www.rstudio.com/shiny/">shiny</a> and can be used simply by visiting <a href="http://glimmer.rstudio.com/tuxette/niledam/">this link</a>.</p>
 
 To cite the package, please use:
 <ul>
