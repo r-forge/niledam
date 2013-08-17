@@ -42,22 +42,25 @@ fclose($handle);
 echo $contents; } ?>
 
 <!-- end of project description -->
-
-<p> The <strong>project summary page</strong> can be found <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; ?>/"><strong>here</strong></a>, <strong>the package</strong> can be downloaded <a href="http://r-forge.r-project.org/R/?group_id=1724">here</a> or by typing:
+<br>
+<p> The <strong>project summary page</strong> can be found <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; ?>/"><strong>here</strong></a>, <strong>the package</strong> can be downloaded <strong><a href="http://r-forge.r-project.org/R/?group_id=1724">here</a></strong> or directly installed in <strong>R</strong> by typing:
 <pre>install.packages("NiLeDAM", repos="http://R-Forge.R-project.org")</pre>
-in <b>R</b>.
+in <b>R</b>. The additional package <a href="http://cran.univ-paris1.fr/web/packages/nleqslv/index.html">nleqslv</a> is required to install NiLeDAM. 
+</p>
+<p><strong><em>Afraid of <a href="http://cran.univ-paris1.fr">R</a>?</em></strong> I made for you a <a href="http://www.rstudio.com/shiny/"><strong>graphical interface</strong></a> that does not require any specific knowledge in R programming. It is based on <a href="http://www.rstudio.com/shiny/">shiny</a> and the script is available on <a href="https://github.com">GitHub</a>:
+<pre>
+git clone https://github.com/tuxette/niledam.git
+</pre>
 </p>
 
-<p>Afraid by R? I made for you a graphical interface that does not require any specific knowledge in R programming. It is based on <a href="http://www.rstudio.com/shiny/">shiny</a> and can be used simply by visiting <a href="http://glimmer.rstudio.com/tuxette/niledam/">this link</a>.</p>
-
-To cite the package, please use:
+<div style="font-size:small">To cite the package, please use:
 <ul>
 <li>
 Villa-Vialaneix N., Montel Jean-Marc and Seydoux-Guillaume Anne-Magali (2013) <em>NiLeDAM: Monazite Datation for the NiLeDAM team</em>. R package version 0.1.
 </li>
 <li>Montel J.M., Foret S., Veschambre M., Nicollet C., Provost A. (1996) Electron microprobe dating of monazite. <em>Chemical Geology</em>, <strong>131</strong>, 37-53.</li>
 <li>Seydoux-Guillaume A.M., Montel J.M., Bingen B., Bosse V., de Parseval P., Paquette J.L., Janots E., Wirth R. (2012) Low-temperature alteration of monazite: fluid mediated coupled dissolution-precipitation, irradiation damage and disturbance of the U-Pb and Th-Pb chronometers. <em>Chemical Geology</em>, <strong>330-331</strong>, 140-158.</li>
-</ul>
+</ul></div>
 
 </body>
 </html>
