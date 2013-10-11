@@ -47,7 +47,7 @@ echo $contents; } ?>
 <pre>install.packages("NiLeDAM", repos="http://R-Forge.R-project.org")</pre>
 in <b>R</b>. The additional package <a href="http://cran.univ-paris1.fr/web/packages/nleqslv/index.html">nleqslv</a> is required to install NiLeDAM. 
 </p>
-<p><strong><em>Afraid of <a href="http://cran.univ-paris1.fr">R</a>?</em></strong> I made for you a <a href="http://glimmer.rstudio.com/tuxette/niledam"><strong>graphical interface</strong></a> that does not require any specific knowledge in R programming. It is based on <a href="http://www.rstudio.com/shiny/">shiny</a> and the script is available on <a href="https://github.com">GitHub</a>:
+<p><strong><em>Afraid of <a href="http://cran.univ-paris1.fr">R</a>?</em></strong> I made for you a <a href="http://shiny.nathalievilla.org/niledam"><strong>graphical interface</strong></a> that does not require any specific knowledge in R programming. It is based on <a href="http://www.rstudio.com/shiny/">shiny</a> and the script is available on <a href="https://github.com">GitHub</a>:
 <pre>
 git clone https://github.com/tuxette/niledam.git
 </pre>
